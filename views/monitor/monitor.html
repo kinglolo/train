@@ -1,0 +1,38 @@
+<div class="container" ng-controller="monitorController">
+	<div class="content">
+		<div>
+			<h1>平交道監測</h1>
+			<div class="monitor-div">
+				<div class="train-icon">
+					<i class="fa fa-subway fa-5x" aria-hidden="true"></i>
+				</div>
+				<div class="warning-msg" ng-show="trainIsComing">
+          <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+          <p ng-bind="warrningMsg"></p>
+        </div>
+				<div class="signal">
+          <i id="signal2" class="fa fa-circle" aria-hidden="true"></i>
+          <i id="signal23Line" class="fa fa-ellipsis-h" aria-hidden="true"></i>
+          <i id="signal3" class="fa fa-circle" aria-hidden="true"></i>
+          <i id="signal34Line" class="fa fa-ellipsis-h" aria-hidden="true"></i>
+          <i id="signal4" class="fa fa-circle" aria-hidden="true"></i>
+          <i id="signal45Line" class="fa fa-ellipsis-h" aria-hidden="true"></i>
+          <i id="signal5" class="fa fa-circle" aria-hidden="true"></i>
+          <i id="signal56Line" class="fa fa-ellipsis-h" aria-hidden="true"></i>
+          <i id="signal6" class="fa fa-circle" aria-hidden="true"></i>
+          <i id="signal67Line" class="fa fa-ellipsis-h" aria-hidden="true"></i>
+          <i id="signal7" class="fa fa-circle" aria-hidden="true"></i>
+          <i id="signal78Line" class="fa fa-ellipsis-h" aria-hidden="true"></i>
+          <i id="signal8" class="fa fa-circle" aria-hidden="true"></i>
+          <i id="signal89Line" class="fa fa-ellipsis-h" aria-hidden="true"></i>
+          <i id="signal9" class="fa fa-circle" aria-hidden="true"></i>
+          <i id="signal9ALine" class="fa fa-ellipsis-h" aria-hidden="true"></i>
+          <i id="signalA" class="fa fa-circle" aria-hidden="true"></i>
+          <i id="signalABLine" class="fa fa-ellipsis-h" aria-hidden="true"></i>
+					<i id="signalB" class="fa fa-circle" aria-hidden="true"></i>
+					<br>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

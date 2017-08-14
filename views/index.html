@@ -1,0 +1,32 @@
+<html ng-app="app">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Train monitor system</title>
+		<!--bootstrap-->
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+		<!--jQuery-->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+		<!--font awesome for all the icons-->
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!--angularJS-->
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+		<!--load socket io to handle udp-->
+		<script src="/socket.io/socket.io.js"></script>
+		<!--main js-->
+		<script src="index.js"></script>
+		<!--footer-->
+		<link rel="stylesheet" href="../footer/footer.css">
+
+		<!--monitor page-->
+		<script src="../monitor/monitor.js" defer></script>
+		<link rel="stylesheet" href="../monitor/monitor.css">
+
+	</head>
+	<body>
+		<div header></div>
+		<div ng-view></div>
+		<div footer></div>
+	</body>
+</html>
